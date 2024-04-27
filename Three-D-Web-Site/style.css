@@ -5,20 +5,20 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
 }
 
 * {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: white;
+}
+
+.height {
+  height: 200svh;
 }
 
 #webGL {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
-  background-color: white;
 }
